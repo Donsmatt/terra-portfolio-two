@@ -7,7 +7,7 @@ import "../styles/work.css";
 
 export default function SelectedWork() {
   return (
-    <div className="container">
+    <div className="work__container">
       <section className="section">
       <div className="content">
         <h1 className="content__title">

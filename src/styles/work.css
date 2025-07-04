@@ -3,15 +3,19 @@
 } */
 
 
-.container {
-    max-width: 1200px;
+.work__container {
+    /* max-width: 1200px; */
+    width: 100%;
     margin: 30px auto;
     padding: 0 20px;
+    background-color: #0D0D0D;
   }
   
   .section {
-    width: 100%;
+    max-width: 1200px;
+    /* width: 100%; */
     padding: 30px 0;
+    background-color: #0D0D0D;
   }
   
   .content {
@@ -107,6 +111,7 @@
   .skill {
     display: flex;
     gap: 20px;
+    
   }
   
   .skill__card {
@@ -175,6 +180,7 @@
     /* max-width: 1200px; */
     width: 100%;
     padding: 30px 0;
+    background-color: #0D0D0D;
   }
   
   .contact {
