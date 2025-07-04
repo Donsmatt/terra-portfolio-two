@@ -1,0 +1,32 @@
+.slider__card {
+  width: 250px;
+  height: 300px;
+  padding-inline: 1rem;
+  border: 1px solid #ffffffa8;
+  border-bottom: none;
+  border-radius: 0.5rem;
+  background-color: #ffffff17;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  flex: 0 0 auto;
+  scroll-snap-align: center;
+}
+
+.slider__card-img {
+  width: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.slider__card.center {
+  align-items: center;
+}
+
+.slider__card.start {
+  align-items: flex-start;
+}
+
+.slider__card.end {
+  align-items: flex-end;
+}

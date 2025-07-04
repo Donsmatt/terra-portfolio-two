@@ -1,8 +1,12 @@
+import About from "./ui/About"
+import Slider from "./ui/Slider"
+
 function App() {
 
   return (
     <>
-      <h1>Hello World</h1>
+      <Slider />
+      <About />
     </>
   )
 }
