@@ -1,5 +1,3 @@
-
-import Footer from "./components/Footer";
 import MySkill from "./components/MySkills";
 import Work from "./components/Work";
 import Contact from "./components/Contact";
@@ -19,7 +17,6 @@ function App() {
       <Work />
       <MySkill />
       <Contact />
-      <Footer />
     </>
   );
 }
