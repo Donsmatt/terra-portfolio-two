@@ -7,7 +7,7 @@ import "../styles/work.css";
 
 export default function Work() {
   return (
-      <section className="section">
+      <section className="section" id="work">
         <div className="row">
           <div className="section__content">
             <h2 className="section__title">

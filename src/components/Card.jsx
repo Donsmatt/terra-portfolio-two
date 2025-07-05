@@ -1,5 +1,3 @@
-
-
 export default function Card({ img, children, className }) {
     return (
       <div className={`card ${className}`}>

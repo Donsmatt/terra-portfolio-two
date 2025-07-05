@@ -9,7 +9,7 @@ import RectangleH from "../assets/branding.png";
 
 export default function MySkill() {
   return (
-    <section className="section">
+    <section className="section" id="skills">
       <div className="row">
 
         <div className="section__content">
