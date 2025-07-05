@@ -1,6 +1,8 @@
+
 import Footer from "./components/Footer";
 import MySkill from "./components/MySkills";
-import SelectedWork from "./components/SelectedWork";
+import Work from "./components/Work";
+import Contact from "./components/Contact";
 
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
@@ -14,14 +16,10 @@ function App() {
       <Hero />
       <Slider />
       <About />
-      <div className="app">
-        <SelectedWork />
-        <MySkill />
-      </div>
-
-      <div>
-        <Footer />
-      </div>
+      <Work />
+      <MySkill />
+      <Contact />
+      <Footer />
     </>
   );
 }
