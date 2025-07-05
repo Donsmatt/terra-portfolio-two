@@ -12,11 +12,15 @@
 
 body {
   font-family: var(--font-family-primary);
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 img {
   max-width: 100%;
+}
+
+a {
+  cursor: pointer;
 }
 
 /* UTILITY STYLES */
@@ -54,6 +58,11 @@ nav {
   color: #fff;
   border-bottom: 1px solid #ffffff80;
   padding-block: 0.5rem 2rem;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 10;
 }
 
 .navbar {

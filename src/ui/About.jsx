@@ -2,7 +2,7 @@ import userImg from "../assets/user_img.png";
 
 const About = () => {
   return (
-    <section className="about container">
+    <section className="about container" id="about">
       <div className="about-content">
         <h3 className="about-title">
           👋Hey i'm <span className="bold">Jesse Okafor.</span>

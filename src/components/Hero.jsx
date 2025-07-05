@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="hero__section">
+    <section className="hero__section" id="home">
       <div className="container hero__section-wrapper">
         <span className="hero__section-span">🟢Available for freelancing </span>
         <h2 className="hero__section-title">
